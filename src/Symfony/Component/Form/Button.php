@@ -195,8 +195,6 @@ class Button implements \IteratorAggregate, FormInterface
      * This method should not be invoked.
      *
      * @param string $modelData
-     *
-     * @throws BadMethodCallException
      */
     public function setData($modelData)
     {
